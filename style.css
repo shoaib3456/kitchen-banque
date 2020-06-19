@@ -1,0 +1,191 @@
+.menu{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(223, 207, 176);
+    /* justify-content: space-around; */
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+}
+.menu-btn {
+    width: 50px;
+    height: 50px;
+    outline: none;
+    color: rgb(26, 19, 6);
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(56, 56, 56);
+    margin: 0px 2% ;
+    font-style: italic;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.card-img-top{
+    border-radius: 50%;
+    padding: 10%;
+}
+.carousel-upper-div{
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    top: 20%;
+    left: 10%;
+    max-width: 500px;
+    height: auto;
+    padding: 4%;
+}
+.carousel-upper-div p{
+font-style: italic;
+font-size: 1.2vw;
+}
+.carousel-upper-div h2{
+font-size: 2.5vw;
+}
+.carousel-upper-div button{
+      border: 2px solid rgb(0, 92, 28);
+      padding: 10px ;
+      border-radius: 3px;
+      color: rgb(0, 92, 28);
+      background-color: transparent;
+      font-size: 1.3vw;
+}
+
+#amenities{
+    width: 100%;
+    background-color: rgb(248,245,237);
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 50vh;
+    
+}
+
+
+#customer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cutomer-cards{ 
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    align-items: center;
+}
+#event{
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.event-images{
+    width: 100%;
+    height: auto;
+}
+.event-info{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    width: 90% !important;
+}
+.event-div{
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 10px 0px;
+}
+#offer{
+    width: 100%;
+    padding: 20px;
+}
+.offer-image{
+    height: 100%;
+    width: 300px;
+    padding: 50px;
+}
+.offer-image img{
+    width: 100%;
+    height: 190px;
+    border-radius: 50%;
+}
+.offer-info{
+    width: 700px;
+    padding: 20px;
+}
+.offer-btn{
+    padding: 20px;
+}
+.offer-btn button{
+    border: 2px solid rgb(0, 92, 28);
+    padding: 20px  30px;
+    color: rgb(0, 92, 28);
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+
+#map-area{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+#map-area::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+
+}
+#footer{
+     width: 100%;
+     min-height: 60vh;
+     background-color: rgb(31,23,7);
+     justify-content: space-around;
+}
+
+
+/* footer section */
+.footer-content{
+    color: white;
+}
+.footer-content ul li a{
+    color: rgb(158, 158, 158);
+}
+.footer-content ul li {
+    list-style: none;
+}
+
+
+.footer-end{
+    background-color:rgb(31,23,7);
+    width: 100%;
+    height: 8vh;
+    border-top:1px solid  rgb(87, 69, 34);
+}
+.newsletter form input[type="text"]{
+     background-color: rgb(26, 19, 6);
+     border: none;
+     color: white;
+     padding: 10px 20px ;
+     margin: 10px 0px;
+}
+.newsletter form input[type="text"]::placeholder{
+     color: white;
+}
+.newsletter form input[type="submit"]{
+     color: rgb(87, 69, 34);
+     background-color: transparent;
+     border: 2px solid rgb(87, 69, 34);
+     padding: 10px 20px ;
+     width: 50%;
+}
+.newsletter p{
+    color: rgb(180, 180, 180);
+}
